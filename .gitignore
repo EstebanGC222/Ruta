@@ -1,0 +1,60 @@
+# Archivos de compilación y salida de Maven
+target/
+
+# Excepción para Maven Wrapper (SÍ queremos subir estos archivos)
+!.mvn/wrapper/maven-wrapper.jar
+
+# Opcional: Estas líneas son a menudo redundantes si 'target/' está en la raíz del módulo Java.
+# Puedes mantenerlas si tienes una estructura de proyecto muy particular.
+# !**/src/main/**/target/
+# !**/src/test/**/target/
+
+### IntelliJ IDEA ###
+# Ignorar la carpeta de configuración completa de IntelliJ
+.idea/
+# Archivos de proyecto y módulos de IntelliJ (a menudo *.iml está al nivel del módulo)
+*.iml
+*.ipr
+*.iws
+# Estantería de cambios de IntelliJ
+shelf/
+
+### VS Code ###
+.vscode/
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+# 'build/' también es usado por Gradle y otros.
+build/
+# Opcional: Similar a las excepciones de 'target/'
+# !**/src/main/**/build/
+# !**/src/test/**/build/
+
+### Mac OS ###
+.DS_Store
+
+### Windows ###
+Thumbs.db
+Desktop.ini
+
+### Archivos de Log ###
+*.log
+logs/
+
+### Archivos temporales comunes de editores ###
+*~
+*.swp
+*.swo
